@@ -8,7 +8,12 @@ gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # rails test:integration
 gem 'rails-controller-testing'
 # Use has_secure_password
-gem 'bcrypt',         '3.1.13'
+gem 'bcrypt', '3.1.13'
+# Create test users
+gem 'faker', '2.1.2'
+# Pagenation setting
+gem 'will_paginate',           '3.1.8'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use Bootstrap
 gem 'bootstrap-sass', '3.4.1'
 # Use mysql as the database for Active Record
