@@ -5,6 +5,8 @@ ruby '2.7.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
+# Use active storage
+gem 'active_storage_validations', '0.8.2'
 # rails test:integration
 gem 'rails-controller-testing'
 # Use has_secure_password
